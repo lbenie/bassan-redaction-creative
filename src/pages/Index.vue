@@ -1,27 +1,18 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
-      >
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >
-    </p>
+    <img src="https://via.placeholder.com/2000x1300" />
+    <div class="container mx-auto flex flex-wrap justify-center">
+      <div class="relative link">
+        <h1 class="text-4xl font-extrabold">
+          Je suis Andrée-Anne Blais-Auclair
+        </h1>
+        <g-link
+          to="/a-propos"
+          class="bg-black p-4 text-white rounded-md z-1 ml-56"
+          >En découvrir plus</g-link
+        >
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -33,8 +24,8 @@ export default {
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
+<style lang="stylus" scoped>
+.link
+  margin-top -50%
+  margin-bottom 50%
 </style>
