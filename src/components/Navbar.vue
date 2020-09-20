@@ -4,9 +4,9 @@
       <div
         class="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold"
       >
-        <g-link class="uppercase text-xl home ml-4" to="/">{{
-          $static.metadata.siteName
-        }}</g-link>
+        <g-link class="uppercase text-xl home ml-4" to="/"
+          >bassan rédaction créative</g-link
+        >
       </div>
       <div
         class="flex w-full content-center justify-between md:w-1/2 md:justify-end"
