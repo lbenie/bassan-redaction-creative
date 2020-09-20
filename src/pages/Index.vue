@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <img src="https://via.placeholder.com/2000x1300" />
+    <img src="https://via.placeholder.com/2000x1300" alt="placeholder" />
     <div class="container mx-auto flex flex-wrap justify-center">
       <div class="relative link">
         <h1 class="text-4xl font-extrabold">
