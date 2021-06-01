@@ -16,7 +16,7 @@
     "gridsome": "0.7.21",
     "gridsome-plugin-robots-txt": "1.0.2",
     "gridsome-plugin-tailwindcss": "3.0.1",
-    "snyk": "1.398.1"
+    "snyk": "1.620.0"
   },
   "devDependencies": {
     "@prettier/plugin-pug": "1.6.1",
